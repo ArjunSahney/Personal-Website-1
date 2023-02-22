@@ -1,0 +1,19 @@
+<!-- This is an HTML document that displays my contact information. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Me</title>
+</head>
+<body>
+	<h1>Contact Me</h1>
+	<!-- Below are ways to contact me -->
+	<p>You can contact me through the following methods:</p>
+	<ul>
+		<li>Email: arjunsahney@gmail.com</li>
+		<li>Phone: 123-456-7890</li>
+		<li>LinkedIn: <a href="https://www.linkedin.com/in/arjun-sahney-40b88624b/">https://www.linkedin.com/in/arjun-sahney-40b88624b/</a></li>
+		<li>Github: <a href="https://github.com/ArjunSahney">https://github.com/ArjunSahney</a></li>
+	</ul>
+</body>
+</html>
