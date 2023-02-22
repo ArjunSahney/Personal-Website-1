@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="UTF-8"> <-- Specifies the character encoding of the document as UTF-8 -->
 	<title>My Projects</title>
 </head>
 <body>
 	<h1>My Projects</h1>
-	<ul>
+	<ul> <!-- Starts an unordered list -->
 		<li>Insight - One of the largest school newspapers in Hong Kong that I founded</li>
 		<li>Panopticon Foundation - Conducted economic research on stakeholders in Hong Kong</li>
 		<li>TAMID Technology Consultants - Worked with an Israeli company called Binmatch to build predictive models for sales</li>
