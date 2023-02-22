@@ -5,7 +5,9 @@
 	<title>Contact Form</title>
 </head>
 <body>
+	<!-- Contact form header -->
 	<h1>Contact Us</h1>
+	<!-- Contact form -->
 	<form onsubmit="sendEmail(); return false;">
 		<label for="name">Name:</label>
 		<input type="text" id="name" required><br><br>
@@ -15,6 +17,7 @@
 		<textarea id="message" required></textarea><br><br>
 		<button type="submit">Send</button>
 	</form>
+	<!-- Status message after form submission -->
 	<p id="status"></p>
 
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
