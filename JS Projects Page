@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Projects</title>
+</head>
+<body>
+	<h1>My Projects</h1>
+	<ul>
+		<li id="project1">Insight</li>
+		<li id="project2">Panopticon Foundation</li>
+		<li id="project3">TAMID Technology Consultants</li>
+		<li>Project 4</li>
+	</ul>
+
+	<p id="projectDescription"></p>
+
+	<script>
+		const project1 = document.getElementById("project1");
+		const project2 = document.getElementById("project2");
+		const project3 = document.getElementById("project3");
+		const projectDescription = document.getElementById("projectDescription");
+
+		project1.addEventListener("click", () => {
+			projectDescription.innerText = "Insight was a school newspaper in Hong Kong that I founded and helped grow into one of the largest student-run publications in the city.";
+		});
+
+		project2.addEventListener("click", () => {
+			projectDescription.innerText = "At the Panopticon Foundation, I conducted economic research on stakeholders in Hong Kong to help inform policy decisions.";
+		});
+
+		project3.addEventListener("click", () => {
+			projectDescription.innerText = "At TAMID Technology Consultants, I worked with an Israeli company called Binmatch to build predictive models for sales.";
+		});
+	</script>
+</body>
+</html>
