@@ -5,8 +5,10 @@
 	<title>My Projects</title>
 </head>
 <body>
+<!-- Create a list of projects with project names as the content and unique id attributes for each item. -->
 	<h1>My Projects</h1>
 	<ul>
+	<!-- Displays a list of projects with their descriptions. -->
 		<li id="project1">Insight</li>
 		<li id="project2">Panopticon Foundation</li>
 		<li id="project3">TAMID Technology Consultants</li>
@@ -14,12 +16,15 @@
 	</ul>
 
 	<p id="projectDescription"></p>
-
+		
+	<!-- Add a script tag to handle the click events for each project. -->
 	<script>
+	<!-- Retrieve the selected project using its id and set the description in the paragraph element. -->
 		const project1 = document.getElementById("project1");
 		const project2 = document.getElementById("project2");
 		const project3 = document.getElementById("project3");
 		const projectDescription = document.getElementById("projectDescription");
+		
 
 		project1.addEventListener("click", () => {
 			projectDescription.innerText = "Insight was a school newspaper in Hong Kong that I founded and helped grow into one of the largest student-run publications in the city.";
