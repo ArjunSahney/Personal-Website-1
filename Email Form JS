@@ -1,3 +1,4 @@
+// function to send email when the form is submitted
 function sendEmail() {
     var name = $("#name");
     var email = $("#email");
@@ -13,6 +14,7 @@ function sendEmail() {
                 email: email.val(),
                 message: message.val()
             }, success: function (response) {
+             // if email is sent successfully, show a success message and clear the form
                 $('#status').text('Email Sent Successfully!');
                 $('#status').css('color', 'green');
                 name.val('');
@@ -22,7 +24,7 @@ function sendEmail() {
         });
     }
 }
-
+// function to check if a field is not empty
 function isNotEmpty(caller) {
     if (caller.val() == '') {
         caller.css('border', '1px solid red');
