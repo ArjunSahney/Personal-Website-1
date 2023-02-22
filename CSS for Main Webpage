@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+}
+
+.first-block {
+  position: relative;
+  text-align: center;
+  margin-bottom: 0;
+  background-color: black;
+}
+
+.name-text-div {
+  position: absolute;
+  margin: auto;
+  top: 130px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+}
+
+.title-picture {
+  width: 100%;
+  height: 820px;
+}
+
+.name {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 85px;
+  text-shadow: 2px 2px 4px #000000;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 28px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.caption {
+  position: absolute;
+  bottom: 120px;
+  left: 0;
+  right: 0;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 15px;
+  text-shadow: 2px 2px 4px #000000;
+  color: white;
+}
+
+.icons {
+  width: 53px;
+  height: 53px;
+  display: inline-block;
+  margin: 18px 18px;
+}
+
+#linkedin:hover {
+  background: #0077b5;
+}
+
+#instagram:hover {
+  background: #F73466;
+}
+
+#github:hover {
+  background: black;
+}
+
+.topnav {
+  overflow: hidden;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 900px;
+  text-align: center;
+  padding-top: 10px;
+
+}
+
+.topnav a {
+  color: white;
+  text-align: center;
+  padding: 14px 35px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #E98074;
+  color: white;
+}
+
+.introduction {
+  background-color: black;
+  position: relative;
+  text-align: center;
+  margin-top: 0;
+}
+
+.about-header {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  color: white;
+  margin-top: 0;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+
+.image-and-text {
+  padding: 0 0 150px 0;
+  width: 50%;
+  margin: auto;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 40px;
+  float: left;
+  margin-right: 30px;
+}
+
+.about-text {
+  color: white;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 15px;
+  text-align: left;
+  line-height: 1.7;
+}
